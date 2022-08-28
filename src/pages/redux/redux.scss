@@ -1,0 +1,62 @@
+
+$width:500px;
+$fontcolor:#000;
+
+.main-area{
+  color:$fontcolor;
+  height: 100%;
+  width: 100%;
+}
+
+.content-area{
+  height: 80%;
+  width: 100%;
+}
+.content{
+  display: flex;
+  justify-content: center;
+  margin-top:10px;
+  height: 88%;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.form-area, .user-details{
+  width:$width;
+  margin:10px;
+  padding: 20px;
+  height: 100%;
+}
+
+form{
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  .form-group{
+    width: 100%;
+    margin: 10px;
+  }
+}
+
+.user-details{
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.user-card{
+  margin:10px;
+  color:$fontcolor;
+  .card-body{
+    span{
+      margin-right: 5px;
+    }
+  }
+}
+
+.img{
+  height: auto;
+  width: 100%;
+}
