@@ -1,5 +1,7 @@
 
+import ReactDOM from "react-dom";
 import { menus } from "../../data/menudata";
+import Menu from "./Menu"
 
 const menuLen = menus.length;
 const menu2 = [...menus];

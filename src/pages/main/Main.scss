@@ -19,19 +19,8 @@ $fontcolor:#fff;
   }
   .main-content{
     grid-area: 2/span 2;
-    background-image: url("https://uploads.sitepoint.com/wp-content/uploads/2017/04/1493235373large_react_apps_A-01.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     padding: 20px;
     color:$fontcolor;
   }
 }
 
-@media screen and ( min-height: 1000px ) {
-
-  .grid-container{
-    height: auto;
-    grid: 70px 90% / auto auto;
-  }
-}

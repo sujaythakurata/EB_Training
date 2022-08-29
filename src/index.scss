@@ -4,4 +4,16 @@
 body{
   padding: 0;
   margin:0;
+  background-image: url("https://uploads.sitepoint.com/wp-content/uploads/2017/04/1493235373large_react_apps_A-01.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and ( min-height: 700px ) {
+
+  .grid-container{
+    height: auto;
+    grid: 70px 90% / auto auto;
+  }
 }
