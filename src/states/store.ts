@@ -6,7 +6,8 @@ const reducer = {
   reducer:{
     product:productReducer,
     user:userReducer,
-  }
+  },
+  devTools:true
 };
 
 export const store = configureStore(reducer);
